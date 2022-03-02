@@ -1,0 +1,20 @@
+Anomaly detection : 
+
+Problem statement: owners of mobile devices usually login to their various accounts once 
+(gmail / outlook/ social media etc) there is no way to protect information when anybody apart from the owner is using the device,
+once they enter the phone this data could be easily breached.
+
+Solution : This solution is called Continuous Authentication (CA). CA works behind the scenes while the user can still use their device like they would do normally. CA collects and analyses the data collected from the user’s usage with the profile of the original user to identify if the current user is the original user or not. 
+With the growing use of devices, there obviously was a need for security in all of these devices. But the problem at hand was more than merely a wall (log in page) that stops hackers from gaining access. The problem identified is:- There is no way to know if the user who logged in is still the same user when they log out.
+The subject of this project is to identify anomalies from the collected data using clustering algorithms. The purpose is, to identify the regular data points from the outliers. This helps in identifying a bad user from the original user. The project lays out all the ways the data are collected and how they are processed to find inferences
+
+Language and Tools used :
+To Analyze the behavior of User, One requires knowledge in Java programming, Android programming, Google’s accessibility services, Machine Learning and Python programming. With the help of Java, android and accessibility services, one could collect all the data that was required for analysis. With the help of Python and ML clustering algorithms, we could find the required inferences (Anomalies to differentiate the hacker from the original user).
+
+Python - anaconda / jupyter notebook
+Numpy
+Scikit-learn
+Pandas
+Matplotlib
+ Android studio - java
+Amazon web service ( amazon s3 bucket)
